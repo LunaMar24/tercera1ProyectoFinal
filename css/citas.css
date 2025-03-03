@@ -1,0 +1,36 @@
+.calendario-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario-container {
+    width: 70%;    
+    margin: 20px auto;
+}
+
+.calendario-datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calendario-container iframe {
+    width: 50%;
+    height: 300px;
+    border: none;
+    opacity: 0.7;
+}
+
+.calendario-cita a{
+    text-decoration: none;
+    display: flex;
+    border: 1px solid black;
+    background-color: #b0e4c5;
+    height: 25px;
+    width: 125px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

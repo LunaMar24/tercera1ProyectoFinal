@@ -1,0 +1,47 @@
+.contactoInfo-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    border-radius: 10px;
+}
+.contacto-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.contacto-whatsapp {
+    background-color: #5abb7e;
+    width: 40%;
+}
+
+.contacto-whatsapp:hover {
+    transform: scale(1.01) translateY(3px);
+    font-weight: bold;
+}
+
+.contacto-telegram {
+    background-color: #579cbf;
+    width: 40%;
+}
+
+.contacto-telegram:hover {
+    transform: scale(1.01) translateY(3px);
+    font-weight: bold;    
+}

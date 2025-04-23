@@ -7,9 +7,10 @@ console.log("Cargando Hamburger");
         },
         eventhandlers: function () {
             document.querySelector('.hamburger-icon').addEventListener('click', function () {
-                document.querySelector('.menu-container').classList.toggle('menu-open');
+                document.querySelector('.menu-container').classList.toggle('menu-open');                
             });
         }
     }
+
     MAIN_OBJ.init();
 })();

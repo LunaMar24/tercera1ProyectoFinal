@@ -22,3 +22,4 @@
 <script src="./scripts/accordion.js"></script>
 <script src="./scripts/cards.js"></script>
 <script src="./scripts/slider.js"></script>
+<script src="./scripts/hamburger.js"></script>

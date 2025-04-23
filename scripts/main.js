@@ -9,8 +9,12 @@ function cargarContenido(pagina) {
             if (contenido) {
                 let funcion = contenido.getAttribute("data-obj");
                 if (funcion && typeof window[funcion] === "object") {
-                    window[funcion].init();  // Ejecuta la función indicada en data-init
+                    window[funcion].init();  // Ejecuta la función indicada en data-init                    
                 }
+            }
+            const menu = document.querySelector('.menu-container.menu-open');
+            if (menu) {
+                menu.classList.remove('menu-open');
             }
         });        
     })

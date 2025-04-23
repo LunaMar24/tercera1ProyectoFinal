@@ -1,7 +1,5 @@
 
-  <div>
-    <div class="cards-list"></div>
-  </div>
+
 
     <footer class="pie">
       <div class="pie-Datos">

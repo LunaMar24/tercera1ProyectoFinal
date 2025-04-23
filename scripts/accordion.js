@@ -52,7 +52,7 @@ const dataAccordion = [
             refItem.parentElement.classList.toggle("tab-active");
         }
     };
-    window.ACCORDION = ACCORDION;
+    window.ACCORDION = ACCORDION; //se usa para llamarlo cuando se carga html
     ACCORDION.init();
 })();
 
